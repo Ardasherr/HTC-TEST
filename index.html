@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Форма авторизации</h2>
+
+<form action="/action_page.php">
+    <div class="container">
+        <label for="login"><b>Логин</b></label>
+        <input type="email" placeholder="Введите ваш логин" name="login" required>
+
+        <label for="psw"><b>Пароль</b></label>
+        <input type="password" placeholder="Введите ваш пароль" name="psw" minlength="6" maxlength="20" pattern ="^[a-zA-Z0-9]+$" required>
+
+        <button type="submit">Войти</button>
+    </div>
+</form>
+
+</body>
+</html>
